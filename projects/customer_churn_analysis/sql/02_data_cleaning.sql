@@ -10,3 +10,4 @@ select customerId,tenure,monthlyCharges,TotalCharges from customer_churn where T
  update customer_churn set StreamingTV ='No' where StreamingTV='No internet service';
  update customer_churn set StreamingMovies ='No' where StreamingMovies='No internet service';
  update customer_churn set OnlineBackup ='No' where OnlineBackup='No internet service';
+ 
